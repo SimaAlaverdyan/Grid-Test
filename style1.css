@@ -1,0 +1,64 @@
+.figures{
+	display: flex;
+}
+.group1{
+	width: 100%;
+}
+.group2{
+	width: 100%;
+}
+.figure1{
+	background-color: lightblue;
+	height: 150px;
+	text-align: center;
+}
+.figure2{
+	background-color: lightgreen;
+	display: inline-block;
+	height: 150px;
+	text-align: center;
+	width: 100%;
+}
+.figure3{
+	background-color: yellow;
+	display: inline-block;
+	width: 33%;
+	height: 150px;
+	text-align: center;
+}
+.figure4{
+	background-color: red;
+	display: inline-block;
+	width: 33%;
+	height: 150px;
+	text-align: center;
+}
+.figure5{
+	background-color: purple;
+	display: inline-block;
+	width: 33%;
+	height: 150px;
+	text-align: center;
+}
+.figure6{
+	background-color: green;
+	display: inline-block;
+	width: 20%;
+	height: 300px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .figure1{
+  	width: 100%;
+  }
+  .figure2{
+  	width: 100%;
+  }
+  .figure6{
+  	width: 100%;
+  	height: 50px;
+  	padding-bottom: 200px;
+  }
+
+}
