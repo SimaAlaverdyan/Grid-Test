@@ -1,12 +1,6 @@
 .figures{
 	display: flex;
 }
-/*.group1{
-	width: 80%;
-}
-.group2{
-	width: 80%;
-}*/
 .group{
 	width: 80%;
 }
@@ -55,4 +49,74 @@
 	height: 400px;
 	width: 30%;
 	background: pink;
+}
+
+@media only screen and (max-width: 1150px) {
+	.figure8{
+		
+		height: 100px;	
+		width: 100%;
+	}
+	.group1{
+		/* display: flex; */
+		/* width: 100%; */
+		justify-content: center;
+	}
+	.group2{
+		display: flex;
+		justify-content: space-around;
+	}
+	/* .group{
+		justify-content: center;
+	} */
+}
+
+/* BOOTSTRAP */
+.my-col1 {
+	background-color: lime;
+	height: 200px;
+}
+
+.my-col2 {
+	background-color: pink;
+	height: 200px;
+}
+
+.my-col3 {
+	background-color: aqua;
+	height: 200px;
+}
+
+.my-col4 {
+	background-color: rgb(161, 233, 161);
+	height: 200px;
+}
+
+.my-col5 {
+	background-color: rgb(168, 212, 97);
+	height: 200px;
+}
+
+.my-col6 {
+	background-color: rgb(160, 142, 211);
+	height: 200px;
+}
+
+.my-col7 {
+	background-color: rgb(165, 104, 25);
+	height: 200px;
+}
+.my-col8 {
+	background-color: rgb(56, 61, 134);
+	height: 200px;
+}
+.my-col9 {
+	background-color: rgb(168, 212, 97);
+	height: 200px;
+}
+
+@media screen and (max-width: 770px){
+	.my-col9{
+		background: white;
+	}
 }

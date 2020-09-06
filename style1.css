@@ -60,5 +60,46 @@
   	height: 50px;
   	padding-bottom: 200px;
   }
+}
 
+/* -----------BOOTSTRAP----------- */
+
+.my-col1 {
+	background-color: lime;
+	height: 200px;
+}
+
+.my-col2 {
+	background-color: pink;
+	height: 200px;
+}
+
+.my-col3 {
+	background-color: aqua;
+	height: 200px;
+}
+
+.my-col4 {
+	background-color: rgb(161, 233, 161);
+	height: 200px;
+}
+
+.my-col5 {
+	background-color: rgb(168, 212, 97);
+	height: 200px;
+}
+
+.my-col6 {
+	background-color: rgb(103, 72, 185);
+	height: 200px;
+}
+
+.my-col7 {
+	background-color: aqua;
+	height: 200px;
+}
+@media screen and (max-width: 770px){
+	.my-col7{
+		background: white;
+	}
 }
