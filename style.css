@@ -1,0 +1,50 @@
+/*body{
+	margin: 0;
+	padding: 0;
+}*/
+.figure1{
+	background-color: lightblue;
+	height: 100px;
+	text-align: center;
+	margin: 2px;
+}
+.figure2{
+	background-color: lightgreen;
+	display: inline-block;
+	height: 200px;
+	text-align: center;
+	width: 80%;
+	margin: 2px;
+}
+.figure3{
+	background-color: yellow;
+	display: inline-block;
+	width: 19%;
+	height: 200px;
+	margin: 2px;
+	text-align: center;
+}
+@media only screen and (max-width: 800px) {
+  .figures div{
+  	width: 100%; 
+  }
+  .figure3{
+  	height:  100px;
+  }
+}
+
+.fig1{
+	background-color: lightblue;
+	text-align: center;
+	height: 100px;
+}
+.fig2{
+	background-color: lightgreen;
+	text-align: center;
+	height: 200px;
+}
+.fig3{
+	background-color: yellow;
+	height: 200px;
+	text-align: center;
+}

@@ -1,0 +1,116 @@
+.figures{
+	/*display: flex;*/
+}
+.group1{
+	width: 100%;
+	display: flex;
+}
+.group2{
+	width: 100%;
+	display: flex;
+}
+.group3{
+	width: 100%;
+}
+.figure1{
+	background-color: lightblue;
+	height: 150px;
+	text-align: center;
+}
+.figure2{
+	background-color: lightgreen;
+	height: 150px;
+	text-align: center;
+	width: 100%;
+}
+.figure3{
+	background-color: yellow;
+	width: 35%;
+	height: 150px;
+	text-align: center;
+}
+.figure4{
+	background-color: red;
+	width: 35%;
+	height: 150px;
+	text-align: center;
+}
+.figure5{
+	background-color: purple;
+	width: 35%;
+	height: 150px;
+	text-align: center;
+}
+.figure6{
+	background-color: green;
+	width: 20%;
+	height: 300px;
+	text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .figure1{
+  	width: 100%;
+  	height: 70px;
+  }
+  .figure2{
+  	width: 100%;
+  }
+  .figure6{
+  	width: 100%;	
+  	height: 75px;
+  }
+  .group1{
+  	display: block;
+  }
+  .group2 div{
+  	height: 50px;
+  	width: 20%;
+  }
+  .group2{
+  	padding: 15px;
+  	justify-content: space-between;
+  }
+}
+
+/* -----------BOOTSTRAP----------- */
+
+.my-col1 {
+	background-color: lime;
+	height: 200px;
+}
+
+.my-col2 {
+	background-color: pink;
+	height: 200px;
+}
+
+.my-col3 {
+	background-color: aqua;
+	height: 200px;
+}
+
+.my-col4 {
+	background-color: rgb(161, 233, 161);
+	height: 200px;
+}
+
+.my-col5 {
+	background-color: rgb(168, 212, 97);
+	height: 200px;
+}
+
+.my-col6 {
+	background-color: rgb(103, 72, 185);
+	height: 200px;
+}
+
+.my-col7 {
+	background-color: aqua;
+	height: 200px;
+}
+@media screen and (max-width: 770px){
+	.my-col7{
+		background: white;
+	}
+}
